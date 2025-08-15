@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.env
+.venv/
+venv/
+
+# Data and models
+/data/
+/data_raw/
+/models/
+/checkpoints/
+
+# DVC
+.dvc/
+
+# VSCode
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Large files (use Git LFS or DVC for binaries)
+*.pt
+*.pth
+*.h5
+*.ckpt
+
+# Ignore local credentials
+.env
+
+# Notebooks outputs
+outputs/
+
+# Keep lockfiles
+
